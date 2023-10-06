@@ -28,7 +28,8 @@
 
         #locations,
         #penalty,
-        #help {
+        #help,
+        #click {
             font-size: 14px;
             font-weight: bold;
             margin: 10px;
@@ -41,17 +42,60 @@
 
 
         }
+        .Pirate{
+                color: crimson;
+            }
          
     </style>
 
 </head>
 <body>
     <h2>Find the treasure by Santhosh Reddy Gurram</h2>
-    <p>Click on the locations to search for treasure, beware the traps</p>
+    <p class="Pirate">Click on the locations to search for treasure, beware the traps</p>
     <p id="locations">Number of locations checked is zero</p>
     <p id="penalty">Penalty is zero</p>
-    <p>Click for help</p>
+    <p id="click" onclick="help()">Click for help</p>
     <p id="help">Help report</p>
+
+    <div class="container">
+      <div class="image-row d-flex justify-content-center">
+          <img src="LocationImage.jpg" alt="Hidden treasure" height="125" width="125">
+          <img src="LocationImage.jpg" alt="Hidden treasure" height="125" width="125">
+          <img src="LocationImage.jpg" alt="Hidden treasure" height="125" width="125">
+          <img src="LocationImage.jpg" alt="Hidden treasure" height="125" width="125">
+          <img src="LocationImage.jpg" alt="Hidden treasure" height="125" width="125">
+        </div>
+      </div>
+      
+      <div class="container">
+      <div class="image-row d-flex justify-content-center">
+        <img src="SecondImage.jpg" alt="Treasure" height="125" width="125">
+        <img src="SecondImage.jpg" alt="Treasure" height="125" width="125">
+        <img src="SecondImage.jpg" alt="Treasure" height="125" width="125">
+        <img src="SecondImage.jpg" alt="Treasure" height="125" width="125">
+        <img src="SecondImage.jpg" alt="Treasure" height="125" width="125">
+      </div>
+      </div>
+
+      <div class="container">
+      <div class="image-row d-flex justify-content-center">
+        <img src="ThirdImage.jpg" alt="Trap" height="125" width="125">
+        <img src="ThirdImage.jpg" alt="Trap" height="125" width="125">
+        <img src="ThirdImage.jpg" alt="Trap" height="125" width="125">
+        <img src="ThirdImage.jpg" alt="Trap" height="125" width="125">
+        <img src="ThirdImage.jpg" alt="Trap" height="125" width="125">
+      </div>
+      </div>
+
+      <div class="container">
+      <div class="image-row d-flex justify-content-center">
+        <img src="FourthImage.jpg" alt="Pirate Image" height="125" width="125">
+        <img src="FourthImage.jpg" alt="Pirate Image" height="125" width="125">
+        <img src="FourthImage.jpg" alt="Pirate Image" height="125" width="125">
+        <img src="FourthImage.jpg" alt="Pirate Image" height="125" width="125">
+        <img src="FourthImage.jpg" alt="Pirate Image" height="125" width="125">
+      </div>
+      </div>
 
 </body>
 </html>
