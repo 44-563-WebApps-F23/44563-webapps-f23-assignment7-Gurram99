@@ -163,10 +163,14 @@
         } else {
             return "Step Faster";
         }
+        document.getElementById("penalty").textContent = "Penalty is : " + penalty;
+        document.getElementById("help").textContent = "Help ";
     }
 
     function showHelp() {
         document.getElementById("help").textContent = help();
+        penalty += 2;
+        document.getElementById("penalty").textContent = "Penalty is : " + penalty;
     }
 
     function newGame(){
